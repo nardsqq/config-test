@@ -6,3 +6,7 @@ cache:
 script:
   - yarn && yarn stylelint
   - yarn prettier:fix && yarn prettier:check
+  - yarn eslint:check
+branches:
+  only:
+    - master

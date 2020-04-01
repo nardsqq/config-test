@@ -19,7 +19,7 @@
     "prettier:check": "prettier --list-different 'src/*.css' 'src/*.{js,jsx,ts,tsx}'",
     "prettier:fix": "prettier --write 'src/*.css' 'src/*.{js,jsx,ts,tsx}'",
     "stylelint-check": "stylelint-config-prettier-check",
-    "lint": "eslint 'src/*.{js,jsx}'"
+    "eslint:check": "eslint 'src/*.{js,jsx}'"
   },
   "eslintConfig": {
     "extends": "react-app"
