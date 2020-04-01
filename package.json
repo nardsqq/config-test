@@ -17,7 +17,8 @@
     "eject": "react-scripts eject",
     "stylelint": "stylelint 'src/*.css'",
     "prettier:check": "prettier --list-different 'src/*.css' 'src/*.{js,jsx,ts,tsx}'",
-    "prettier:fix": "prettier --write 'src/*.css' 'src/*.{js,jsx,ts,tsx}'"
+    "prettier:fix": "prettier --write 'src/*.css' 'src/*.{js,jsx,ts,tsx}'",
+    "stylelint-check": "stylelint-config-prettier-check"
   },
   "eslintConfig": {
     "extends": "react-app"
